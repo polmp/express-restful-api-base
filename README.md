@@ -1,5 +1,5 @@
 # Express Restful API Base
-This repository contains a base for starting the backend of a webpage using the Rest principles.
+This repository contains a base for starting the backend of a webpage using the Rest principles. It's a fork of **express-generator**.
 
 ## Quick start
 Simply clone this project
@@ -14,8 +14,28 @@ Install dependencies:
 $ npm install
 ```
 
-Start your app at `http://localhost:3000/`:
+Set the NODE_ENV variable to production (if you want to use the development mode, simply skip this step):
+
+```bash
+$ NODE_ENV=production
+```
+
+If you use the development mode (default) you may need to install nodemon globally:
+
+```bash
+$ npm install -g nodemon
+```
+
+Start your app at `http://localhost:3000/` for development (Nodemon):
+
+```bash
+$ npm run dev
+```
+
+or the production mode:
 
 ```bash
 $ npm start
 ```
+
+
