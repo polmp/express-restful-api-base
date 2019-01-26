@@ -8,6 +8,7 @@
   Loading configuration for the first time to set NODE_ENV variable if needed
 */
 var config = require('../config');
+var db = require('../utils/db');
 
 var app = require('../app');
 var debug = require('debug')('express-restful-api-base:server');
